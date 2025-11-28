@@ -11,8 +11,6 @@ import {
   SidebarHeader,
   SidebarRail,
 } from "@/components/ui/sidebar";
-import { Title } from "@radix-ui/react-dialog";
-import { url } from "node:inspector/promises";
 
 // This is sample data.
 const data = {
@@ -75,51 +73,9 @@ const data = {
       ],
     },
     {
-      title: "Bonne pratiques",
+      title: "Bonnes pratiques",
       url: "/Bonne-pratiques",
       icon: Map,
-      items: [
-        {
-          title: "Utilisation d'ORM",
-          url: "/Bonne-pratiques/ORM",
-        },
-        {
-          title: "Validation des données",
-          url: "/Bonne-pratiques/Validation-des-donnees",
-        },
-        {
-          title: "Moindre privilèges",
-          url: "/Bonne-pratiques/Moindre-privilèges",
-        },
-        {
-          title: "Requêtes préparées",
-          url: "/Bonne-pratiques/Requetes-preparees",
-        },
-        {
-          title: "Échappement des entrées",
-          url: "/Bonne-pratiques/Echappement-entrees",
-        },
-        {
-          title: "Liste blanche d'entrées",
-          url: "/Bonne-pratiques/Liste-blanche",
-        },
-        {
-          title: "Chiffrement des données",
-          url: "/Bonne-pratiques/Chiffrement-donnees",
-        },
-        {
-          title: "Journalisation et monitoring",
-          url: "/Bonne-pratiques/Journalisation",
-        },
-        {
-          title: "Gestion des erreurs",
-          url: "/Bonne-pratiques/Gestion-erreurs",
-        },
-        {
-          title: "WAF et pare-feu",
-          url: "/Bonne-pratiques/WAF-parefeu",
-        },
-      ],
     },
   ],
 };
